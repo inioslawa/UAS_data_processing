@@ -1,11 +1,11 @@
 # google drive database
 * Create the **YYYY_MM_DD** folder and **Flight_data** at google drive 
 * Download **imagery** and **flight log** to the **Flight_data** subfolder
-  - if needed, convert the .jxl file (flight log) to .txt using the [**jxl2csv.py**](https://github.com/wenzeslaus/jxl2csv.git) script
+  - if needed, convert the `.jxl` file (flight log) to `.txt` using the [**jxl2csv.py**](https://github.com/wenzeslaus/jxl2csv.git) script
 
 # Agisoft processing 
 Data is processed in [Agisoft PhotoScan Professional](http://www.agisoft.com/downloads/installer/). 
-* Geographical settings (ESPG: 
+* Geographical settings `(ESPG: `
 * Loading photos
 * Aligning photos (accuracy: low)
 * Placing the markers
