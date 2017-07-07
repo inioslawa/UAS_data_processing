@@ -1,6 +1,8 @@
 * mapset `PERMANENT` res=0.3 
 * working directory `/home/jajezior/DEMS`
 
+** This describes how to remove trees from the DSM interpolated from pointcloud ([see how](https://github.com/inioslawa/UAS_data_processing/blob/master/GRASS_processing/interpolation.md)) to prepare it for hydrological modeling**
+
 ###### create a mask with lidar DEM for the areas with trees
 `r.mapcalc --overwrite "lidarDEM_region_trees = midpines_lidar_DEM_2015"`
 
