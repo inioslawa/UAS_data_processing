@@ -6,7 +6,7 @@ This describes how to remove trees from the DSM interpolated from pointcloud ([s
 ###### create a mask with lidar DEM for the areas with trees
 `r.mapcalc --overwrite "lidarDEM_region_trees = midpines_lidar_DEM_2015"`
 
-## FOR EACH MAP
+### FOR EACH MAP
 
 ##### Set the small region (trees surroundings) 
 `g.region n=219417.34388346 s=219402.64388052 e=637011.45136396 w=636986.25136984`
