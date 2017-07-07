@@ -9,7 +9,9 @@ Requests for viewing/editing direct to jajezior@ncsu.edu
 
 # Database structure 
 - data is organized in folders **YYYY_MM_DD** (where **YYYY** = year, **MM** = month, **DD** = day)
-- In each folder, there is a subfolder **flight_data** containing imagery (pictures captured by UAS) and flight log
+- In each folder, there is a subfolder **flight_data** containing 
+  - imagery (pictures captured by UAS) and 
+  - a flight log
 
 ### The usual outputs include:
 *	**DSM** - DSMagi_YYYY_MM_DD.tif
