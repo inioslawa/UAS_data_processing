@@ -4,7 +4,7 @@ The database is stored on the [google drive](https://drive.google.com/open?id=0B
 The host is jajezior@ncsu.edu (UAS/uav_timeseries), this folder is accesible (to view) for anyone in the .ncsu.edu domain.
 Requests for viewing/editing direct to jajezior@ncsu.edu
 ### Steps for preserving consistency in the UAS database
-* The workflow for the processing is described in the processing_workflow.md file
+* The workflow for the processing is described in the [processing_workflow.md](https://github.com/inioslawa/UAS_data_processing/blob/master/processing_workflow.md) file
 * The workflow for the GRASS processing (generating DSM for hydrological modeling) on fatra - see GRASS processing folder
 
 # Database structure 
