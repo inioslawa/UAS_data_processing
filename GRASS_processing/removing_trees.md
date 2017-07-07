@@ -2,7 +2,7 @@
 * working directory `/home/jajezior/DEMS`
 
 ###### create a mask with lidar DEM for the areas with trees
-	r.mapcalc --overwrite "lidarDEM_region_trees = midpines_lidar_DEM_2015"
+`r.mapcalc --overwrite "lidarDEM_region_trees = midpines_lidar_DEM_2015"`
 
 ## FOR EACH MAP
 
@@ -13,7 +13,7 @@
 `r.mapcalc --overwrite "testdiff = YYYY_MM - lidarDEM_region_trees"`
 
 ##### leave only areas with the trees (the rest should be null)
-* `r.mapcalc --overwrite "trees = if(testdiff>1,2,null())"
+* `r.mapcalc --overwrite "trees = if(testdiff>1,2,null())"`
 * `r.mapcalc --overwrite "trees2 = if(testdiff<(-0.2),2,null())"`
 * `r.patch --overwrite input=trees@PERMANENT,trees2@PERMANENT output=trees`
 
