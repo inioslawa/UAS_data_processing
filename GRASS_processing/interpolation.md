@@ -1,5 +1,5 @@
 * location:
-* mapset:`PERMANENT'
+* mapset:`PERMANENT`
 ### Importing points
 ```
 g.region n=219657.343931 s=219320.143864 e=637072.65134968 w=636731.851429 
