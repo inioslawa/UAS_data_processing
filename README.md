@@ -3,11 +3,12 @@ This is a workflow for UAS data processing and the database management in the Ce
 The database is stored on the [google drive](https://drive.google.com/open?id=0B1AfQGDB8tPXfi1pbXJzWUd4Y21sb2ZhZ1ZmYmF0VS0zVnlPRGJoZTdpRC1kRkN1TkgtLWc)
 The host is jajezior@ncsu.edu (UAS/uav_timeseries), this folder is accesible (to view) for anyone in the .ncsu.edu domain.
 Requests for viewing/editing direct to jajezior@ncsu.edu
+
 ### Steps for preserving consistency in the UAS database
 * The workflow for the processing is described in the [processing_workflow.md](https://github.com/inioslawa/UAS_data_processing/blob/master/processing_workflow.md) file
 * The workflow for the GRASS processing (generating DSM for hydrological modeling) on fatra - see GRASS processing folder
 
-# Database structure 
+# Database structure ([database organization file](https://drive.google.com/open?id=0B1AfQGDB8tPXRmFpMVVHZF9xMTQ))
 - data is organized in folders **YYYY_MM_DD** (where **YYYY** = year, **MM** = month, **DD** = day)
 - In each folder, there is a subfolder **flight_data** containing 
   - imagery (pictures captured by UAS) and 
@@ -29,6 +30,8 @@ For the outputs that have been chosen for further analysis (because of the quali
 * **DSM (interpolated)** - hydroDSM_YYYY_MM_DD.pack 
   * limited extent, the same for all DSMs, resolution: 0.3m
   * for the workflow for interpolation refer to file
-* **DSM (interpolated, trees removed)** - hydroDSM_YYYY_MM_DD_DSM_notrees.pack* 
+* **DSM (interpolated, trees removed)** - hydroDSM_YYYY_MM_DD_DSM_notrees.pack
   * limited extent, the same for all DSMs, trees removed for hydrological modeling, resolution: 0.3m
-  *  for the workflow for interpolation refer to file
+  * for the workflow for interpolation refer to file
+  
+#  Update the [database organization file](https://drive.google.com/open?id=0B1AfQGDB8tPXRmFpMVVHZF9xMTQ)
