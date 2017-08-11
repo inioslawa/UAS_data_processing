@@ -2,7 +2,7 @@
 This is a workflow for UAS data processing and the database management in the Center for Geospatial Analytics at NCSU
 The database is stored on the [google drive](https://drive.google.com/open?id=0B1AfQGDB8tPXfi1pbXJzWUd4Y21sb2ZhZ1ZmYmF0VS0zVnlPRGJoZTdpRC1kRkN1TkgtLWc)
 The host is jajezior@ncsu.edu (UAS/uav_timeseries), this folder is accesible (to view) for anyone in the .ncsu.edu domain.
-Requests for viewing/editing direct to jajezior@ncsu.edu
+Request access for viewing/editing by contacting jajezior@ncsu.edu
 
 ### Steps for preserving consistency in the UAS database
 * The workflow for the processing is described in the [processing_workflow.md](https://github.com/inioslawa/UAS_data_processing/blob/master/processing_workflow.md) file
