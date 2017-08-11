@@ -5,6 +5,7 @@
 
 # Agisoft processing 
 Data is processed in [Agisoft PhotoScan Professional](http://www.agisoft.com/downloads/installer/). 
+Projects are saved at shared NGAT drive [\\cnrdata.cnr.ncsu.edu\NGAT\NgatData\LW\JJ\projects](\\cnrdata.cnr.ncsu.edu\NGAT\NgatData\LW\JJ\projects)
 * Geographical settings `(ESPG: `
 * Loading photos
 * Aligning photos (accuracy: low)
