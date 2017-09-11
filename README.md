@@ -17,7 +17,7 @@ Request access for viewing/editing by contacting jajezior@ncsu.edu
 ### The usual outputs include:
 *	**DSM** - DSMagi_YYYY_MM_DD.tif
 *	**Orthophoto** - ortho_YYYY_MM_DD_.tif
-*	**Pointcloud** - YYYY_MM_DD_points.las
+*	**Pointcloud** - points_YYYY_MM_DD.las
 *	**Model** - model_YYYY_MM_DD.zip
 *	**Processing report** - report_YYYY_MM_DD.pdf
 
