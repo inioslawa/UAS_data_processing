@@ -6,7 +6,7 @@ Request access for viewing/editing by contacting jajezior@ncsu.edu
 
 ### Steps for preserving consistency in the UAS database
 * The workflow for the processing is described in the [processing_workflow.md](https://github.com/inioslawa/UAS_data_processing/blob/master/processing_workflow.md) file
-* The workflow for the GRASS processing (generating DSM for hydrological modeling) on fatra - see GRASS processing folder
+* The workflow for the GRASS processing (generating DSM for hydrological modeling) on fatra - see [GRASS processing folder](https://github.com/inioslawa/UAS_data_processing/tree/master/GRASS_processing)
 
 # Database structure ([database organization file](https://drive.google.com/open?id=0B1AfQGDB8tPXRmFpMVVHZF9xMTQ))
 - data is organized in folders **YYYY_MM_DD** (where **YYYY** = year, **MM** = month, **DD** = day)
