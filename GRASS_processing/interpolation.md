@@ -1,4 +1,4 @@
-* location: LakeWheeler
+* location: `LakeWheeler`
 * mapset:`PERMANENT`
 ### Importing points
 ```
