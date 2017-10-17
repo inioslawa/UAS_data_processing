@@ -7,7 +7,6 @@ v.in.lidar -r -t -b -o input=**/home/jajezior/pointclouds/points_YYYY_MM_DD.las*
 ```
 
 ### Interpolation
-add-on `v.surf.rst.mp` needs to be installed
 ```
-v.surf.rst.mp input=**xYYYY_MM@PERMANENT** elevation=hydroDSM_YYYY_MM_DD tension=20 smooth=1 npmin=80 dmin=0.2 dmax=0.75
+v.surf.rst input=**xYYYY_MM@PERMANENT** elevation=hydroDSM_YYYY_MM_DD nprocs=4 tension=20 smooth=1 npmin=80 dmin=0.2 dmax=0.75
 ```
